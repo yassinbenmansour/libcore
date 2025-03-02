@@ -1,14 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: yabenman <yabenman@student.1337.ma>        +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/10/31 06:50:23 by yabenman          #+#    #+#              #
-#    Updated: 2024/11/02 22:30:16 by yabenman         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
 
 NAME = libft.a
 CFLAGS = -Wall -Wextra -Werror
@@ -67,6 +56,9 @@ clean :
 
 fclean :
 		@rm -f $(NAME)  $(OBJ)
+
+push : 
+	@git add . ; git commit -m "update" ; git push 
 
 re : fclean all
 
