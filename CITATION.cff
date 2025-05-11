@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this library in your project, please cite it as below."
+title: libft
+version: 1.0.0
+date-released: 2025-05-11
+authors:
+  - family-names: Benmansour
+    given-names: Yassine
+    affiliation: 42 Network | 1337MED
+license: MIT
+repository-code: https://github.com/yassinbenmansour/libcore
+url: https://github.com/yassinbenmansour/libcore
+keywords:
+  - C
+  - library
+  - 42school
+  - libft
